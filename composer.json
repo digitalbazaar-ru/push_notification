@@ -1,0 +1,20 @@
+{
+  "name": "digitalbazaar-ru/push_notification",
+  "description": "PushAll notification",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "digitalbazaar.ru",
+      "email": "helpdesk@digitalbazaar.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DigitalBazaar\\PushNotification\\": ""
+    }
+  },
+  "require": {
+    "digitalbazaar-ru/rest_api": "dev-master"
+  }
+}
